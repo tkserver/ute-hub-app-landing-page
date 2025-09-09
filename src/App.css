@@ -373,8 +373,8 @@ body {
 .btn-download {
   background: var(--black);
   color: var(--white);
-  width: 96px;
-  height: 96px;
+  width: 77px;
+  height: 77px;
 }
 
 .btn-download:hover {
@@ -554,8 +554,8 @@ body {
   }
 
   .qr-code img {
-    width: 80px;
-    height: 80px;
+    width: 64px;
+    height: 64px;
   }
 }
 
