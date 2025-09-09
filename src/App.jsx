@@ -3,10 +3,10 @@ import './App.css';
 
 // Mock app screenshots - in production these would be actual app screenshots
 const appScreenshots = [
-  '/src/assets/app-screenshot.jpeg',
-  '/src/assets/app-screenshot_02.jpeg',
-  '/src/assets/app-screenshot_03.jpeg',
-  '/src/assets/app-screenshot_04.jpeg'
+  './src/assets/app-screenshot.jpeg',
+  './src/assets/app-screenshot_02.jpeg',
+  './src/assets/app-screenshot_03.jpeg',
+  './src/assets/app-screenshot_04.jpeg'
 ];
 
 function App() {
@@ -26,7 +26,7 @@ function App() {
       <header className="header">
         <nav className="nav">
           <div className="nav-brand">
-            <img src="/src/assets/ute-hub-logo.png" alt="UteHub" className="logo" />
+            <img src="./src/assets/ute-hub-logo.png" alt="UteHub" className="logo" />
           </div>
           <div className={`nav-menu ${mobileMenuOpen ? 'active' : ''}`}>
             <a href="https://utehub.com" className="nav-link">UteHub.com</a>
@@ -51,19 +51,19 @@ function App() {
             <div className="hero-buttons">
               <div className="download-option">
                 <a href="https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewSoftware?id=1252441645&mt=8" className="badge-link">
-                  <img src="/src/assets/app-store-badge.svg" alt="Download on the App Store" className="store-badge" />
+                  <img src="./src/assets/app-store-badge.svg" alt="Download on the App Store" className="store-badge" />
                 </a>
                 <div className="qr-code">
-                  <img src="/src/assets/qr-ios.png" alt="iOS QR Code" />
+                  <img src="./src/assets/qr-ios.png" alt="iOS QR Code" />
                   <p>Scan for iOS</p>
                 </div>
               </div>
               <div className="download-option">
                 <button className="badge-link">
-                  <img src="/src/assets/google-play-badge.png" alt="Get it on Google Play" className="store-badge" />
+                  <img src="./src/assets/google-play-badge.png" alt="Get it on Google Play" className="store-badge" />
                 </button>
                 <div className="qr-code">
-                  <img src="/src/assets/qr-android.png" alt="Android QR Code" />
+                  <img src="./src/assets/qr-android.png" alt="Android QR Code" />
                   <p>Scan for Android</p>
                 </div>
               </div>
@@ -158,10 +158,10 @@ function App() {
           <p>Available on iOS and Android. Join thousands of Ute fans already using the app.</p>
           <div className="download-buttons">
             <a href="https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewSoftware?id=1252441645&mt=8" className="badge-link">
-              <img src="/src/assets/app-store-badge.svg" alt="Download on the App Store" className="store-badge-large" />
+              <img src="./src/assets/app-store-badge.svg" alt="Download on the App Store" className="store-badge-large" />
             </a>
             <button className="badge-link">
-              <img src="/src/assets/google-play-badge.png" alt="Get it on Google Play" className="store-badge-large" />
+              <img src="./src/assets/google-play-badge.png" alt="Get it on Google Play" className="store-badge-large" />
             </button>
           </div>
         </div>

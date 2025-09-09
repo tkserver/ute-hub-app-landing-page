@@ -100,7 +100,7 @@ body {
   padding: 120px 0 80px;
   background: 
     linear-gradient(135deg, rgba(0, 0, 0, 0.6) 0%, rgba(26, 26, 26, 0.7) 100%),
-    url('/src/assets/hero-background.png') center/cover no-repeat;
+    url('./src/assets/hero-background.png') center/cover no-repeat;
   min-height: 100vh;
   display: flex;
   align-items: center;
