@@ -173,7 +173,7 @@ function App() {
           <div className="footer-content">
             <div className="footer-brand">
               <h3>UteHub</h3>
-              <p>The official fan community app for University of Utah sports.</p>
+              <p>A fan community app for University of Utah sports enthusiasts.</p>
             </div>
             <div className="footer-links">
               <h4>Quick Links</h4>
