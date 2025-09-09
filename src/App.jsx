@@ -143,8 +143,8 @@ function App() {
               <p>Forum Posts</p>
             </div>
             <div className="stat">
-              <h3>500+</h3>
-              <p>Daily Predictions</p>
+              <h3>15K+</h3>
+              <p>Daily Visits</p>
             </div>
           </div>
           <p>Be part of the most passionate University of Utah fan community.</p>
