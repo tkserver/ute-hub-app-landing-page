@@ -147,7 +147,7 @@ function App() {
               <p>Daily Predictions</p>
             </div>
           </div>
-          <p>Be part of the most passionate University of Utah fan community. Make predictions and celebrate victories together!</p>
+          <p>Be part of the most passionate University of Utah fan community.</p>
         </div>
       </section>
 
