@@ -132,7 +132,7 @@ function App() {
       {/* Community Section */}
       <section id="community" className="community">
         <div className="container">
-          <h2>Join the #1 Ute Fan Community</h2>
+          <h2>Join the Ultimate Fan Community</h2>
           <div className="community-stats">
             <div className="stat">
               <h3>10K+</h3>
@@ -147,7 +147,7 @@ function App() {
               <p>Daily Predictions</p>
             </div>
           </div>
-          <p>Be part of the most passionate University of Utah fan community. Share your Ute pride, make predictions, and celebrate victories together!</p>
+          <p>Be part of the most passionate University of Utah fan community. Make predictions and celebrate victories together!</p>
         </div>
       </section>
 
