@@ -113,7 +113,7 @@ function App() {
             <div className="feature-card">
               <div className="feature-icon">🏆</div>
               <h3>Team Rosters</h3>
-              <p>Complete player profiles, stats, and roster information for all University of Utah sports teams.</p>
+              <p>Player profiles, stats, and roster information for University of Utah sports teams.</p>
             </div>
             <div className="feature-card">
               <div className="feature-icon">🎯</div>
