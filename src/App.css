@@ -162,6 +162,10 @@ body {
   width: auto;
 }
 
+.store-badge-large {
+  height: 80px;
+  width: auto;
+}
 .btn {
   padding: 1rem 2rem;
   border: none;
@@ -424,31 +428,26 @@ body {
 .social-icons {
   display: flex;
   gap: 1rem;
-}
-
-.social-icons span {
-  font-size: 1.5rem;
-  cursor: pointer;
-  transition: transform 0.3s ease;
+  align-items: center;
 }
 
 .social-icons a {
-  color: inherit;
+  color: var(--gray);
   text-decoration: none;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
 }
 
-.social-icons a span {
-  font-size: 1.5rem;
-  cursor: pointer;
-  transition: transform 0.3s ease;
-}
-
-.social-icons span:hover {
-  transform: scale(1.2);
-}
-
-.social-icons a span:hover {
-  transform: scale(1.2);
+.social-icons a:hover {
+  color: var(--primary-red);
+  background: rgba(204, 0, 0, 0.1);
+  transform: translateY(-2px);
 }
 .footer-bottom {
   border-top: 1px solid #333;
@@ -551,7 +550,7 @@ body {
   }
 
   .store-badge-large {
-    height: 60px;
+    height: 80px;
   }
 
   .qr-code img {
