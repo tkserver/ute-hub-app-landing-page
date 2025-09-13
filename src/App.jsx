@@ -147,7 +147,7 @@ function App() {
           <h2>Join the Ultimate Fan Community</h2>
           <div className="community-stats">
             <div className="stat">
-              <h3>10K+</h3>
+              <h3>11K+</h3>
               <p>iOS Downloads</p>
             </div>
             <div className="stat">
